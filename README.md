@@ -8,4 +8,4 @@ Kelas       : TI.19.C.1
 ```
 
 link demo : https://uasloket.000webhostapp.com/
-link youtube : 
+</br>link youtube : https://drive.google.com/file/d/1lHTkZqzTfkxHV3SfWHbFtyd-o9fvgEdk/view?usp=sharing
