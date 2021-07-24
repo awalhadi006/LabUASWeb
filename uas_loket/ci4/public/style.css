@@ -1,0 +1,471 @@
+/* import google font */
+@import
+url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import
+url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    line-height:1;
+    font-size:100%;
+    font-family:'Open Sans', sans-serif;
+    color:#5a5a5a;
+}
+
+/* header */
+header {
+    padding: 20px;
+    background-color: #0e2335;
+}
+
+header h1 {
+    margin: 20px auto;
+    font-size: 3em;
+    text-align: center;
+    color: #ffffff;
+}
+
+header h2 {
+    font-size: 1.5em;
+    text-align: center;
+    color: #ffffff;
+}
+
+header h3 {
+    font-size: 1em;
+    text-align: center;
+    color: #ffffff;   
+}
+
+header hr {
+    margin: 10px auto;
+    background-color: rgb(190, 190, 190);
+    border: none;
+    height: 3px;
+    border-radius: 10px;
+}
+/* navigasi */
+nav {
+    display: block;
+    background-color: #1f5faa;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+nav a {
+    padding: 15px 30px;
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a.active,
+nav a:hover {
+    background-color: #2b83ea;
+}
+
+/* Hero Panel */
+#hero {
+    background-color: #e4e4e5;
+    padding: 50px 20px;
+    margin-bottom: 20px;
+}
+#hero h1 {
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+#hero p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+/* Introduce Panel */
+#introduce{
+    background-color: #e4e4e5;
+    padding: 50px 20px;
+    margin-bottom: 20px;
+}
+#introduce h1 {
+    margin-bottom: 10px;
+    font-size: 35px;
+    position: relative;
+    left: 20px;
+}
+#introduce p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    padding: 30px;
+    line-height: 25px;
+    position: relative;
+    left: 20px;
+}
+
+/* Contact Panel */
+#kontak{
+    background-color: #e4e4e5;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+}
+.input,
+.msg, .area{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid white;
+    box-sizing: border-box;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+button{
+    font-size: 14px;
+    background-color: #3f3f3f;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 8x;
+}
+#kontak button.active,
+#kontak button:hover{
+    background: #6e6e6e;
+}
+
+/* main content */
+#wrapper {
+    margin: 0;
+}
+#main {
+    float: left;
+    padding: 20px;
+    width: 97%;
+}
+#main2 {
+    float: left;
+    width: 640px;
+    padding: 20px;
+    background-color: #F8EBCC;
+}
+#main3 {
+    float: left;
+    width: 640px;
+    padding: 20px;
+}
+#main2 p {
+    line-height: 30px;
+}
+
+/* footer */
+footer {
+    clear: both;
+    background-color: #1d1d1d;
+    padding: 20px;
+    color:  #eee
+}
+
+/* box */
+#box_1 {
+    display:flex;
+    width: 840px;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: larger;
+    color: white;
+    background-color: rgb(255, 165, 80);
+    border-radius: 10px;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+    margin: 0 230px;
+    text-decoration: none;
+    padding: 20px 0;
+}
+
+#kolom_box_2 {
+    margin: 20px 210px;
+}
+
+#box_2 {
+    display: flex;
+    width: 400px;
+    background-color: teal;
+    margin: 20px;
+    float: left;
+    text-decoration: none;
+    border-radius: 20px;
+    justify-content: center;
+    padding: 40px 0;
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#box_3 {
+    display:block;
+    width: 400px;
+    height: 100px;
+    background-color: teal;
+    margin: 20px;
+}
+
+#box_4 {
+    display: flex;
+    background-color: teal;
+    text-decoration: none;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+    justify-content: center;
+    padding: 5px 0;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#box_5 {
+    display: flex;
+    background-color: rgb(14, 99, 39);
+    text-decoration: none;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+    justify-content: center;
+    padding: 5px 0;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.box{
+	box-shadow: 0 0 8px #D0D0D0;
+	border: 1px solid #D0D0D0;
+    font-size: 150px;
+    font-weight: 600;
+    text-align: center;
+    padding: 40px 0;
+
+}
+.loket{
+	background: #0e2335;
+	font-size: 32px;
+	text-align: center;
+	color: #fff;
+	padding: 10px;
+}
+
+.daftar {
+    width: 400px;
+    background: rgb(248, 149, 0);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    margin-left: 25px;
+    color: #ffffff;
+}   
+
+.box_kecil {
+    box-shadow: 0 0 8px #D0D0D0;
+	border: 1px solid #D0D0D0;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    padding: 15px 0;
+}
+
+
+/* entry */
+.entry {
+    margin: 15px 0;
+}
+.entry h2 {
+    margin-bottom: 20px;
+}
+.entry p {
+    line-height: 25px;
+}
+.entry img {
+    float: left;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+.entry .right-img {
+    float: right;
+}
+
+/* Footer Wrapper */
+#footer-wrapper{
+    background: white;
+    margin: 0;
+}
+#footer-wrapper p{
+    color: black;
+}
+.kiri{
+    float: left;
+    width: 400px;
+    padding: 10px;
+}
+.kanan{
+    float: left;
+    width: 500px;
+    padding: 10px;
+}
+
+.contact-form{
+    background: #fafafa;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 0 20px #000000b3;
+    font-family: "Montserrat",sans-serif;
+    text-align: left;
+  }
+  .contact-form h1{
+    margin-top: 0;
+    font-weight: 200;
+  }
+
+  .contact-form img {
+    float: right;
+    margin-right: -30px;
+  }
+ 
+ .labelnew {
+     border: 1px solid #1f5faa;
+     border-radius: 6px;
+     display: inline-flex;
+     vertical-align: top;
+     text-align: left;
+     color:#008cba;
+     font-size: 14px;
+     width: 120px;
+     padding: 0 12px;
+     margin-bottom: 20px;
+     margin-right: 12px;
+  }
+  
+
+  .form-contact {
+    border: 0px;
+    border-radius: 0;
+    border-bottom: 1px solid #4facfe;
+    width: 150px;
+    padding: 6px 0;
+    padding-left: 8px;
+  }
+
+  .form-contact_p {
+      font-family: sans-serif;
+  }
+
+  .judul {
+      color: #2b83ea;
+      text-align: center;
+      margin-bottom: 40px;
+  }
+
+  .btn {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border: 2px solid #e74c3c;
+    border-radius: 0.6em;
+    color: #e74c3c;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+  .btn:hover, .btn:focus {
+    color: #fff;
+    outline: 0;
+  }
+  .fourth {
+    border-color: #f1c40f;
+    color: rgb(0, 0, 0);
+    background-image: linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    transition: background 300ms ease-in-out;
+    margin-left: 0px;
+  }
+  .fourth:hover {
+    background-position: 0;
+  }
+
+  #login-wrapper {
+    background: #ffffff;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 0 20px #000000b3;
+    font-family: "Montserrat",sans-serif;
+    text-align: left;
+  }
+
+.heading {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 20px;    
+}
+
+.form-label {
+    display: flex;
+    vertical-align: top;
+    font-size: 14px;
+    width: 120px;
+}
+
+.form-control {
+    border: 1px solid #333;
+    border-radius: 0;
+    width: 580px;
+    padding: 6px 0;
+    padding-left: 8px;
+    margin-bottom: 10px;
+}
+
+.judul {
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 20px;
+    width: 97%;
+}
+table td{
+    border: 1px solid #c9c9c9;
+    font-size: 19px;
+    padding: 5px 10px;
+}
+table th {
+    background:#4d8cd4;
+    color:#ffffff;
+    font-size: 17px;
+    text-align: center;
+    border: 1px solid #c9c9c9;
+    padding: 8px 5px;
+}
+table tr {
+    background:#ffffff;
+    text-align: left;
+}
+tr:hover{
+    background: #e7e7e7;
+}
